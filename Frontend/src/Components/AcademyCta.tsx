@@ -16,7 +16,7 @@ const AcademyCta = () => {
         <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
           <Link
             to="/contact"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-black text-white text-xs uppercase tracking-widest font-semibold hover:bg-neutral-800 transition-colors shadow-sm"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-300 bg-white text-neutral-900 text-xs uppercase tracking-widest font-semibold hover:bg-black hover:text-white hover:border-black transition-all cursor-pointer shadow-xs"
           >
             <span>Apply or Inquire</span>
             <FiArrowUpRight className="w-4 h-4" />
@@ -26,15 +26,15 @@ const AcademyCta = () => {
             href="https://wa.me/9779765148958?text=Hello%20Damon%20Len%20Academy,%20I%20would%20like%20to%20inquire%20about%20course%20admissions."
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-300 text-neutral-900 text-xs uppercase tracking-widest font-semibold hover:bg-neutral-100 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-300 bg-white text-neutral-900 text-xs uppercase tracking-widest font-semibold hover:bg-black hover:text-white hover:border-black transition-all cursor-pointer shadow-xs group"
           >
-            <FaWhatsapp className="w-4 h-4 text-emerald-600" />
+            <FaWhatsapp className="w-4 h-4 text-emerald-600 group-hover:text-emerald-400" />
             <span>WhatsApp Admissions</span>
           </a>
 
           <a
             href="tel:+9779765148958"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-300 text-neutral-900 text-xs uppercase tracking-widest font-semibold hover:bg-neutral-100 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-300 bg-white text-neutral-900 text-xs uppercase tracking-widest font-semibold hover:bg-black hover:text-white hover:border-black transition-all cursor-pointer shadow-xs"
           >
             <FiPhone className="w-3.5 h-3.5" />
             <span>976-5148958</span>
@@ -44,9 +44,9 @@ const AcademyCta = () => {
             href="https://maps.app.goo.gl/5RFsPaPPghAVXY566"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-300 text-neutral-900 text-xs uppercase tracking-widest font-semibold hover:bg-neutral-100 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-300 bg-white text-neutral-900 text-xs uppercase tracking-widest font-semibold hover:bg-black hover:text-white hover:border-black transition-all cursor-pointer shadow-xs"
           >
-            <FiMapPin className="w-3.5 h-3.5 text-neutral-900" />
+            <FiMapPin className="w-3.5 h-3.5" />
             <span>Pulchowk, Lalitpur</span>
           </a>
         </div>

@@ -16,7 +16,7 @@ const LookbookCta = () => {
         <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
           <Link
             to="/contact"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-black text-white text-xs uppercase tracking-widest font-semibold hover:bg-neutral-800 transition-colors shadow-sm"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-300 bg-white text-neutral-900 text-xs uppercase tracking-widest font-semibold hover:bg-black hover:text-white hover:border-black transition-all cursor-pointer shadow-xs"
           >
             <span>Book an Appointment</span>
             <FiArrowUpRight className="w-4 h-4" />
@@ -26,15 +26,15 @@ const LookbookCta = () => {
             href="https://wa.me/9779765148958"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-300 text-neutral-900 text-xs uppercase tracking-widest font-semibold hover:bg-neutral-100 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-300 bg-white text-neutral-900 text-xs uppercase tracking-widest font-semibold hover:bg-black hover:text-white hover:border-black transition-all cursor-pointer shadow-xs group"
           >
-            <FaWhatsapp className="w-4 h-4 text-emerald-600" />
+            <FaWhatsapp className="w-4 h-4 text-emerald-600 group-hover:text-emerald-400" />
             <span>Chat on WhatsApp</span>
           </a>
 
           <a
             href="tel:+9779765148958"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-300 text-neutral-900 text-xs uppercase tracking-widest font-semibold hover:bg-neutral-100 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-300 bg-white text-neutral-900 text-xs uppercase tracking-widest font-semibold hover:bg-black hover:text-white hover:border-black transition-all cursor-pointer shadow-xs"
           >
             <FiPhone className="w-3.5 h-3.5" />
             <span>976-5148958</span>

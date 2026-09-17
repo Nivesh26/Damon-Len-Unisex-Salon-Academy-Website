@@ -6,7 +6,6 @@ const batches = [
     time: "08:00 AM – 10:30 AM",
     days: "Monday – Friday",
     focus: "Head geometry, mannequin shear work, clipper drills, and hygiene theory.",
-    seats: "6 Seats Available",
     idealFor: "Aspiring barbers and beginners seeking dedicated morning practice.",
   },
   {
@@ -14,7 +13,6 @@ const batches = [
     time: "11:00 AM – 02:00 PM",
     days: "Monday – Friday",
     focus: "Live client models, skin fades, beard sculpting, chemical mixing, and salon speed.",
-    seats: "4 Seats Available",
     idealFor: "Intermediate students and assistants transitioning to senior stylist chairs.",
   },
   {
@@ -22,7 +20,6 @@ const batches = [
     time: "11:00 AM – 04:00 PM",
     days: "Saturday & Sunday",
     focus: "Advanced balayage techniques, editorial scissor textures, and business management.",
-    seats: "6 Seats Available",
     idealFor: "Working stylists and salon owners aiming to level up their precision craftsmanship.",
   },
 ];
@@ -46,15 +43,12 @@ const AcademySchedule = () => {
         {batches.map((batch, idx) => (
           <div
             key={idx}
-            className="p-6 sm:p-7 rounded-2xl bg-neutral-50 border border-neutral-300 hover:border-neutral-500 transition-all flex flex-col justify-between"
+            className="p-6 sm:p-7 rounded-2xl bg-white border border-neutral-200/90 hover:border-neutral-400 hover:shadow-lg transition-all duration-300 flex flex-col justify-between cursor-pointer"
           >
             <div className="space-y-4">
-              <div className="flex items-center justify-between">
-                <span className="text-[10px] uppercase tracking-wider font-bold px-2.5 py-1 rounded-full bg-black text-white">
+              <div>
+                <span className="text-[10px] uppercase tracking-wider font-bold px-2.5 py-1 rounded-full bg-black text-white inline-block">
                   Batch 0{idx + 1}
-                </span>
-                <span className="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200">
-                  {batch.seats}
                 </span>
               </div>
 

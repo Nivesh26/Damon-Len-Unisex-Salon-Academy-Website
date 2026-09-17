@@ -15,7 +15,7 @@ const AboutCta = () => {
         <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
           <Link
             to="/contact"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-black text-white text-xs uppercase tracking-widest font-semibold hover:bg-neutral-800 transition-colors shadow-sm"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-300 bg-white text-neutral-900 text-xs uppercase tracking-widest font-semibold hover:bg-black hover:text-white hover:border-black transition-all cursor-pointer shadow-xs"
           >
             <span>Contact & Inquiries</span>
             <FiArrowUpRight className="w-4 h-4" />
@@ -23,7 +23,7 @@ const AboutCta = () => {
 
           <Link
             to="/lookbook"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-300 text-neutral-900 text-xs uppercase tracking-widest font-semibold hover:bg-neutral-100 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-300 bg-white text-neutral-900 text-xs uppercase tracking-widest font-semibold hover:bg-black hover:text-white hover:border-black transition-all cursor-pointer shadow-xs"
           >
             <span>View Our Lookbook</span>
             <FiArrowUpRight className="w-4 h-4" />
@@ -33,9 +33,9 @@ const AboutCta = () => {
             href="https://maps.app.goo.gl/5RFsPaPPghAVXY566"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-300 text-neutral-900 text-xs uppercase tracking-widest font-semibold hover:bg-neutral-100 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-neutral-300 bg-white text-neutral-900 text-xs uppercase tracking-widest font-semibold hover:bg-black hover:text-white hover:border-black transition-all cursor-pointer shadow-xs"
           >
-            <FiMapPin className="w-3.5 h-3.5 text-neutral-900" />
+            <FiMapPin className="w-3.5 h-3.5" />
             <span>Pulchowk, Lalitpur</span>
           </a>
         </div>
