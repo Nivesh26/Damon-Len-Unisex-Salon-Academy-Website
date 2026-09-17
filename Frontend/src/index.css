@@ -1,1 +1,47 @@
 @import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Bodoni Moda', 'Didot', 'Bodoni MT', Didone, serif;
+    --font-didone: 'Bodoni Moda', 'Didot', 'Bodoni MT', Didone, serif;
+    --font-sans: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'Geist Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #171717;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: var(--font-serif);
+    font-optical-sizing: auto;
+  }
+
+  button, input, select, textarea {
+    font-family: inherit;
+  }
+}
+
+.font-editorial,
+.font-didone,
+.font-serif,
+.font-modern-serif {
+  font-family: 'Bodoni Moda', 'Didot', 'Bodoni MT', Didone, serif;
+  font-optical-sizing: auto;
+}
+
+.font-sans-clean {
+  font-family: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.font-geist {
+  font-family: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.font-geist-mono {
+  font-family: 'Geist Mono', monospace;
+}
