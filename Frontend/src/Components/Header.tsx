@@ -70,7 +70,7 @@ const Header = () => {
                             <img
                                 src={Logo}
                                 alt="Damon Len Unisex Salon & Academy"
-                                className="h-16 sm:h-20 md:h-22 lg:h-24 w-auto object-contain"
+                                className="h-10 sm:h-12 md:h-13 lg:h-14 w-auto object-contain transition-all duration-300"
                             />
                         </div>
                     </Link>
@@ -232,7 +232,7 @@ const Header = () => {
                             <img
                                 src={Logo}
                                 alt="Damon Len Unisex Salon & Academy"
-                                className="h-16 w-auto object-contain"
+                                className="h-11 w-auto object-contain"
                             />
                         </div>
                         <div className="flex flex-col space-y-4">

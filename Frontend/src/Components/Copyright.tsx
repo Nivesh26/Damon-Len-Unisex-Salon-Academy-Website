@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Copyright = () => {
   const currentYear = new Date().getFullYear();
 
@@ -8,17 +10,17 @@ const Copyright = () => {
           © {currentYear} Damon Len Unisex Salon & Academy. All Rights Reserved.
         </p>
         <div className="flex items-center gap-6">
-          <a href="#privacy" className="hover:text-white transition-colors">
+          <Link to="/privacy&terms&conditions" className="hover:text-white transition-colors">
             Privacy Policy
-          </a>
+          </Link>
           <span className="text-neutral-700">•</span>
-          <a href="#terms" className="hover:text-white transition-colors">
+          <Link to="/privacy&terms&conditions" className="hover:text-white transition-colors">
             Terms & Conditions
-          </a>
+          </Link>
           <span className="text-neutral-700">•</span>
-          <a href="#academy" className="hover:text-white transition-colors">
+          <Link to="/academy" className="hover:text-white transition-colors">
             Academy Enrollment
-          </a>
+          </Link>
         </div>
       </div>
     </div>

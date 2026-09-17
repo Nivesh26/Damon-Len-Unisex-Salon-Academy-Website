@@ -64,7 +64,7 @@ const Footer = () => {
                             <img
                                 src={LogoWhite}
                                 alt="Damon Len Unisex Salon & Academy"
-                                className="h-16 sm:h-18 w-auto object-contain"
+                                className="h-11 sm:h-12 w-auto object-contain"
                             />
                         </Link>
 
