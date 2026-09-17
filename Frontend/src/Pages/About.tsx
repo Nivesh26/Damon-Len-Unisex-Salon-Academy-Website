@@ -17,7 +17,7 @@ const About = () => {
                         About Damon Len
                     </h1>
                     <p className="text-base sm:text-lg text-neutral-600 font-light leading-relaxed pt-2">
-                        Founded on the principles of architectural precision, bespoke hair craftsmanship, and disciplined artistry, Damon Len Unisex Salon & Academy redefines modern salon grooming and education.
+                        Founded on the principles of architectural precision, bespoke hair craftsmanship, and disciplined artistry, Damon Len Unisex Salon & Academy redefines modern salon grooming and education in Pulchowk, Lalitpur.
                     </p>
                 </div>
             </main>

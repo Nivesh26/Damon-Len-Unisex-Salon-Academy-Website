@@ -12,7 +12,7 @@ const Topbar = () => {
             <span>Mon – Sun: 10:00 AM – 7:00 PM</span>
           </span>
           <a
-            href="https://maps.app.goo.gl/LzPt1Ptzmz9rECci7"
+            href="https://maps.app.goo.gl/5RFsPaPPghAVXY566"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:flex items-center gap-1.5 hover:text-white transition-colors group cursor-pointer"
