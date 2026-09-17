@@ -1,30 +1,38 @@
 import Topbar from "../Components/Topbar";
 import Header from "../Components/Header";
+import LookbookGallery from "../Components/LookbookGallery";
+import LookbookCta from "../Components/LookbookCta";
 import Footer from "../Components/Footer";
 import Copyright from "../Components/Copyright";
 
 const Lookbook = () => {
-    return (
-        <div className="min-h-screen flex flex-col bg-white text-neutral-900 font-sans-clean">
-            <Topbar />
-            <Header />
-            <main className="flex-1 max-w-7xl mx-auto px-6 sm:px-8 py-20 lg:py-28 w-full">
-                <div className="max-w-3xl space-y-4">
-                    <span className="text-xs uppercase tracking-[0.2em] text-neutral-500 font-semibold block">
-                        Portfolio & Craftsmanship
-                    </span>
-                    <h1 className="text-4xl sm:text-5xl font-editorial font-normal text-neutral-950 tracking-tight">
-                        The Lookbook
-                    </h1>
-                    <p className="text-base sm:text-lg text-neutral-600 font-light leading-relaxed pt-2">
-                        Explore our curation of precision fades, editorial blowouts, signature beard sculpts, and bespoke color transformations created by Damon Len masters.
-                    </p>
-                </div>
-            </main>
-            <Footer />
-            <Copyright />
+  return (
+    <div className="min-h-screen flex flex-col bg-white text-neutral-900 font-sans-clean selection:bg-neutral-900 selection:text-white">
+      <Topbar />
+      <Header />
+
+      <main className="flex-1 max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-20 w-full">
+        {/* Minimal Centered Header */}
+        <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-16">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-editorial font-bold text-neutral-950 tracking-tight">
+            The Lookbook
+          </h1>
+          <p className="text-base sm:text-lg text-neutral-800 font-normal leading-relaxed mt-4 max-w-2xl mx-auto">
+            A visual archive of signature precision cuts, bespoke color transformations, and salon artistry crafted daily at Pulchowk, Lalitpur.
+          </p>
         </div>
-    );
+
+        {/* Gallery Component */}
+        <LookbookGallery />
+
+        {/* Call to Action */}
+        <LookbookCta />
+      </main>
+
+      <Footer />
+      <Copyright />
+    </div>
+  );
 };
 
 export default Lookbook;
