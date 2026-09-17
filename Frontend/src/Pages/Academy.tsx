@@ -1,30 +1,40 @@
 import Topbar from "../Components/Topbar";
 import Header from "../Components/Header";
+import AcademyHero from "../Components/AcademyHero";
+import AcademySchedule from "../Components/AcademySchedule";
+import AcademyCourses from "../Components/AcademyCourses";
+import AcademyTeam from "../Components/AcademyTeam";
+import AcademyCta from "../Components/AcademyCta";
 import Footer from "../Components/Footer";
 import Copyright from "../Components/Copyright";
 
 const Academy = () => {
-    return (
-        <div className="min-h-screen flex flex-col bg-white text-neutral-900 font-sans-clean">
-            <Topbar />
-            <Header />
-            <main className="flex-1 max-w-7xl mx-auto px-6 sm:px-8 py-20 lg:py-28 w-full">
-                <div className="max-w-3xl space-y-4">
-                    <span className="text-xs uppercase tracking-[0.2em] text-neutral-500 font-semibold block">
-                        Professional Education
-                    </span>
-                    <h1 className="text-4xl sm:text-5xl font-editorial font-normal text-neutral-950 tracking-tight">
-                        Damon Len Academy
-                    </h1>
-                    <p className="text-base sm:text-lg text-neutral-600 font-light leading-relaxed pt-2">
-                        Comprehensive masterclasses, apprenticeships, and hands-on workshops in precision barbering, creative coloring, and salon management. Admissions are currently open for upcoming batches.
-                    </p>
-                </div>
-            </main>
-            <Footer />
-            <Copyright />
+  return (
+    <div className="min-h-screen flex flex-col bg-white text-neutral-900 font-sans-clean selection:bg-neutral-900 selection:text-white">
+      <Topbar />
+      <Header />
+
+      <main className="flex-1 w-full">
+        {/* Header, Timings, & Courses (White Section) */}
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 pt-16 sm:pt-20 pb-16 sm:pb-24 w-full">
+          <AcademyHero />
+          <AcademySchedule />
+          <AcademyCourses />
         </div>
-    );
+
+        {/* Teachers, Mentors & Team (Full-Width Black Section) */}
+        <AcademyTeam />
+
+        {/* Admissions & Studio Tour CTA (White Section) */}
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-20 w-full">
+          <AcademyCta />
+        </div>
+      </main>
+
+      <Footer />
+      <Copyright />
+    </div>
+  );
 };
 
 export default Academy;

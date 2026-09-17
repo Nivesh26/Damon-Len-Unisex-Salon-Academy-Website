@@ -179,13 +179,6 @@ const Header = () => {
                             }`}
                         >
                             <span>Academy</span>
-                            <span className={`ml-1.5 text-[9px] px-1.5 py-0.5 rounded-full lowercase tracking-normal border ${
-                                isScrolled
-                                    ? "bg-emerald-950/80 text-emerald-300 border-emerald-800/80"
-                                    : "bg-emerald-100 text-emerald-800 border-emerald-200"
-                            }`}>
-                                enroll
-                            </span>
                             <span
                                 className={`absolute bottom-0 left-0 h-[2px] transition-all duration-300 ${
                                     isScrolled ? "bg-white" : "bg-neutral-950"
